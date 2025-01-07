@@ -42,6 +42,7 @@ Usage: [-a listen address]
  [-P ppm_error (default: 0)]
  [-i direct sampling(1: I-ADC input enabled), 2: Q-ADC input enabled)]
  [-c AGC Mode(1: ON, 0: OFF), default: 1(ON)
+ 
  Example:
 
   rtl_tcp -i 1 -c 0 -g 49.6
