@@ -31,7 +31,7 @@ There is a new -i parameter available:
 rtl_tcp, an I/Q spectrum server for RTL2832 based DVB-T receivers
 Modified by Jakub/SP5TOF on 07.02.2017 for direct sampling support
 
-  Usage: [-a listen address]
+Usage: [-a listen address]
  [-p listen port (default: 1234)]
  [-f frequency to tune to [Hz]]
  [-g gain (default: 0 for auto)]
@@ -42,7 +42,6 @@ Modified by Jakub/SP5TOF on 07.02.2017 for direct sampling support
  [-P ppm_error (default: 0)]
  [-i direct sampling(1: I-ADC input enabled), 2: Q-ADC input enabled)]
  [-c AGC Mode(1: ON, 0: OFF), default: 1(ON)
-
  Example:
 
   rtl_tcp -i 1 -c 0 -g 49.6
