@@ -29,7 +29,7 @@ sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
 2. How to use this ?
 There is a new -i parameter available:
 
-
+```
 rtl_tcp, an I/Q spectrum server for RTL2832 based DVB-T receivers
 Modified by Jakub/SP5TOF on 07.02.2017 for direct sampling support
 
@@ -44,10 +44,13 @@ Usage: [-a listen address]
  [-P ppm_error (default: 0)]
  [-i direct sampling(1: I-ADC input enabled), 2: Q-ADC input enabled)]
  [-c AGC Mode(1: ON, 0: OFF), default: 1(ON)
- 
- Example:
 
+```
+
+ Example:
+```
   rtl_tcp -i 1 -c 0 -g 49.6
+```
 
 By typing the command above, you will be able to launch the rtl_tcp process with support of hardware mod for direct sampling(the RF input can be directly connected to the I pad on the dongle’s PCB).
 
