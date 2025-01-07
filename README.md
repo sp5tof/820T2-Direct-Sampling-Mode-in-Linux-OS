@@ -2,7 +2,7 @@ As you know, the DVB-T Receiver 820T2 can be physically modified and be able to 
 
 1. Install procedure:
 
-'''
+```
 git clone git://git.osmocom.org/rtl-sdr.git
 
 cd rtl-sdr/
@@ -24,7 +24,7 @@ sudo make install
 sudo ldconfig
 
 sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
-'''
+```
 
 2. How to use this ?
 There is a new -i parameter available:
