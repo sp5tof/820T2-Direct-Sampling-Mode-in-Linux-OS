@@ -27,6 +27,7 @@ sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
 2. How to use this ?
 There is a new -i parameter available:
 
+
 rtl_tcp, an I/Q spectrum server for RTL2832 based DVB-T receivers
 Modified by Jakub/SP5TOF on 07.02.2017 for direct sampling support
 
